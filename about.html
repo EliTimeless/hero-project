@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Personal page with curriculum vitae and two projects: Singing lessons and Weather app coded by Eliška Nečasová "
+      content="Eliška Nečasová is a front-end developer based in Czechia. Here in about page you found information about her education, skills and her certification."
     />
     <title>Eliška Nečasová | About me page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
           ><img src="/img/EN.png" alt="Eli logo" title="Eli logo" class="logo"
@@ -65,18 +65,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="/" title="homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/about.html"
+              <a
+                class="nav-link active"
+                title="about Eliška"
+                aria-current="page"
+                href="/about.html"
                 >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
+              <a class="nav-link" href="/work.html" title="Eliška's work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="contacts to Eliška"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -124,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="project-description">
+      <div class="about-description">
         <div class="m-4">
           <h3>Education</h3>
           <ul>
@@ -162,9 +173,38 @@
           </ul>
         </div>
       </div>
-    </div>
-    <div class="coded">
-      Coded <a href="">Open source</a> by Eliška Nečasová 2023
+      <footer class="container">
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:elisqa.s@gmail.com"
+            title="email to Eliska"
+            class="social-links"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/EliTimeless"
+            target="_blank"
+            title="Github profile"
+            class="social-links"
+            ><i class="fa-brands fa-github"> </i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/eli%C5%A1ka-ne%C4%8Dasov%C3%A1-a08483270/"
+            target="_blank"
+            title="LinkedIn profile"
+            class="social-links"
+            ><i class="fa-brands fa-linkedin-in"> </i
+          ></a>
+        </div>
+        <p class="text-center m-4">
+          This project was coded by Eliska Necasova and is
+          <a
+            href="https://github.com/EliTimeless/hero-project.git"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>

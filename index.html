@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Personal page with curriculum vitae and two projects: Singing lessons and Weather app coded by Eliška Nečasová "
+      content="Eliška Nečasová is a front-end developer based in Czechia. On this sites you found several projects, informations and contacts to Eliška Nečasová."
     />
-    <title>Portfolio Eliška Nečasová | two full projects</title>
+    <title>Front-end developer Eliška Nečasová</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
           ><img src="/img/EN.png" alt="Eli logo" title="Eli logo" class="logo"
@@ -65,16 +65,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a
+                class="nav-link active"
+                title="home page"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" title="about Eliška" href="/about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
+              <a class="nav-link" title="Eliška's work" href="/work.html"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a
+                class="nav-link"
+                title="contacts to Eliška"
+                href="/contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -94,16 +109,7 @@
         <div class="col-lg-6">
           <div class="project-description">
             <h2 class="mb-5">Weather-app</h2>
-            <p class="mb-5 text-muted">
-              Weather responsive application developed with HTML5, CSS3,
-              Bootstrap and JavaScript Vanilla for any device. Try this breezy
-              app with some advanced coding and beatiful calming background!
-            </p>
-            <a
-              href="https://shining-unicorn-weather-app.netlify.app/"
-              target="_blank"
-              class="btn btn-branding-green"
-            >
+            <a href="/work.html" class="btn btn-branding-green" title="">
               Learn more</a
             >
           </div>
@@ -111,8 +117,8 @@
         <div class="col-lg-6 d-none d-lg-block">
           <img
             src="/img/weather-app-img.png"
-            alt="weather app"
-            title="weather app"
+            alt="weather app preview"
+            title="weather app preview"
             class="img-fluid rounded"
           />
         </div>
@@ -121,26 +127,15 @@
         <div class="col-lg-6 d-none d-lg-block">
           <img
             src="/img/world-clock.png"
-            alt="world clock img"
-            title="world clock img"
+            alt="world clock preview"
+            title="world clock preview"
             class="img-fluid rounded"
           />
         </div>
         <div class="col-lg-6">
           <div class="project-description">
             <h2 class="mb-5">World clock app</h2>
-            <p class="mb-5 text-muted">
-              App made from pure html, css and javascript, shows the best world
-              locations include your location(with your permission).
-            </p>
-            <a
-              href="https://zesty-macaron-c4c88d.netlify.app/"
-              class="btn btn-branding-green"
-              title="world clock img"
-              target="_blank"
-            >
-              Learn more</a
-            >
+            <a href="/work.html" class="btn btn-branding-green"> Learn more</a>
           </div>
         </div>
       </div>
@@ -148,52 +143,49 @@
         <div class="col-lg-6">
           <div class="project-description">
             <h2 class="mb-5">Singing lessons project</h2>
-            <p class="mb-5 text-muted">
-              Singing lessons project created with HTML5, CSS3 and little bit of
-              JavaScript Vanilla. Try this app with essential frontend coding!
-            </p>
-            <a
-              href="https://poetic-blancmange-0a7fbf.netlify.app/"
-              title="singing lessons img"
-              target="_blank"
-              class="btn btn-branding-green"
-            >
-              Learn more</a
-            >
+            <a href="/work.html" class="btn btn-branding-green"> Learn more</a>
           </div>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
           <img
             src="/img/singins-lesson-img.png"
-            alt="singin-lessons"
-            title="singin-lessons"
+            alt="singin-lessons preview"
+            title="singin-lessons preview"
             class="img-fluid rounded"
           />
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div class="d-flex justify-content-center">
           <a
             href="mailto:elisqa.s@gmail.com"
-            title="email address"
+            title="email to Eliska"
             class="social-links"
             ><i class="fa-regular fa-envelope"></i
           ></a>
           <a
             href="https://github.com/EliTimeless"
             target="_blank"
-            title="contact github"
+            title="Github profile"
             class="social-links"
             ><i class="fa-brands fa-github"> </i
           ></a>
           <a
             href="https://www.linkedin.com/in/eli%C5%A1ka-ne%C4%8Dasov%C3%A1-a08483270/"
             target="_blank"
-            title="contact LinkedIn"
+            title="LinkedIn profile"
             class="social-links"
             ><i class="fa-brands fa-linkedin-in"> </i
           ></a>
         </div>
+        <p class="text-center m-4">
+          This project was coded by Eliska Necasova and is
+          <a
+            href="https://github.com/EliTimeless/hero-project.git"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
   </body>
