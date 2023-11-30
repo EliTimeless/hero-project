@@ -1,21 +1,19 @@
 :root {
-  --branding-color: #da51e2;
-  --second-color: #fa95ff;
-  --third-color: #57be6d;
+  --branding-color: #f957ff;
+  --second-color: #f6cef9;
+  --third-color: #5aaa6b;
   --fourth-color: #d4eed5;
   --heading-font-family: "Sansita", sans-serif;
-  --default-font-family: "Poppins", sans-serif;
+  --default-font-family: sans-serif;
   --shadow: 5px 15px 35px rgba(0, 0, 0, 0.3);
-  --gradient-color: linear-gradient(75deg, #fce1f7 20%, #d4eed5 60%);
+  --gradient-color: linear-gradient(75deg, #a84496 20%, #cbf1cd 60%);
+  --background-color: #cbf1cd;
 }
 
-/*
-font-family: 'Poppins', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Russo One', sans-serif;
-*/
 body {
   font-family: var(--default-font-family);
+  background-color: var(--background-color);
+  color: rgb(41, 41, 41);
 }
 
 h1,
@@ -23,7 +21,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: black;
+  color: rgb(41, 41, 41);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -76,14 +74,17 @@ p {
   padding: 120px 20px;
 }
 .content h1 {
+  color: rgb(41, 41, 41);
   font-size: 64px;
   line-height: 80px;
 }
 .content h2 {
+  color: rgb(41, 41, 41);
   font-size: 35px;
   font-family: var(--heading-font-family);
 }
 .content h3 {
+  color: rgb(41, 41, 41);
   font-size: 18px;
   font-family: var(--default-font-family);
   line-height: 1.5;
@@ -127,7 +128,7 @@ p {
 }
 .btn-branding-green:hover {
   background: var(--fourth-color);
-  color: black;
+  color: rgb(41, 41, 41);
 }
 
 .btn-branding-outline {
@@ -207,6 +208,7 @@ footer {
 }
 
 footer .social-links {
+  background-color: var(--background-color);
   text-decoration: none;
   font-size: 25px;
   color: black;
