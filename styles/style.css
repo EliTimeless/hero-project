@@ -1,19 +1,20 @@
 :root {
-  --branding-color: #f957ff;
-  --second-color: #f6cef9;
-  --third-color: #5aaa6b;
+  --branding-color: #bb7cbd;
+  --second-color: #a18ba3;
+  --third-color: #b3a814;
   --fourth-color: #d4eed5;
-  --heading-font-family: "Sansita", sans-serif;
+  --heading-font-family: "Kalnia", serif;
+  --second-font-family: "Sansita", sans-serif;
   --default-font-family: sans-serif;
-  --shadow: 5px 15px 35px rgba(0, 0, 0, 0.3);
-  --gradient-color: linear-gradient(75deg, #a84496 20%, #cbf1cd 60%);
-  --background-color: #cbf1cd;
+  --shadow: 5px 15px 35px rgba(135, 135, 135, 0.3);
+  --background-color: black;
+  --gradient-color: linear-gradient(65deg, #d7c9d4 20%, #d4d3c3 60%);
 }
 
 body {
   font-family: var(--default-font-family);
   background-color: var(--background-color);
-  color: rgb(41, 41, 41);
+  color: rgb(223, 222, 222);
 }
 
 h1,
@@ -21,7 +22,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: rgb(41, 41, 41);
+  color: rgb(223, 223, 223);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -47,11 +48,12 @@ p {
 }
 
 .container-fluid {
-  background-image: var(--gradient-color);
+  background: var(--second-color);
+  color: #fff;
 }
 
 .hero {
-  background: rgb(255, 252, 252);
+  background: black;
   text-align: center;
   padding: 160px 20px;
 }
@@ -60,7 +62,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: rgb(23, 23, 23);
+  color: rgb(231, 231, 231);
 }
 
 .hero h2 {
@@ -74,17 +76,17 @@ p {
   padding: 120px 20px;
 }
 .content h1 {
-  color: rgb(41, 41, 41);
+  color: rgb(231, 231, 231);
   font-size: 64px;
   line-height: 80px;
 }
 .content h2 {
-  color: rgb(41, 41, 41);
+  color: rgb(231, 231, 231);
   font-size: 35px;
   font-family: var(--heading-font-family);
 }
 .content h3 {
-  color: rgb(41, 41, 41);
+  color: rgb(231, 231, 231);
   font-size: 18px;
   font-family: var(--default-font-family);
   line-height: 1.5;
@@ -99,7 +101,11 @@ p {
   font-size: 14px;
 }
 .content-container .work {
-  background: linear-gradient(65deg, #feebfa 20%, #fbfae7 60%);
+  background: var(--gradient-color);
+  border-radius: 10px;
+}
+.work .dark {
+  color: black;
 }
 
 .btn-branding-pink {
@@ -114,7 +120,7 @@ p {
 
 .btn-branding-pink:hover {
   background: var(--second-color);
-  color: black;
+  color: rgb(231, 231, 231);
 }
 
 .btn-branding-green {
@@ -128,7 +134,7 @@ p {
 }
 .btn-branding-green:hover {
   background: var(--fourth-color);
-  color: rgb(41, 41, 41);
+  color: rgb(231, 231, 231);
 }
 
 .btn-branding-outline {
@@ -172,7 +178,7 @@ p {
 }
 
 .active {
-  color: var(--branding-color) !important;
+  color: rgb(231, 231, 231) !important;
 }
 nav {
   padding: 20px 0;
@@ -195,7 +201,7 @@ nav li.active a {
 }
 nav a {
   text-decoration: none;
-  color: rgb(10, 10, 32);
+  color: rgb(231, 231, 231);
   transition: all 100ms ease-in-out;
 }
 
@@ -208,10 +214,10 @@ footer {
 }
 
 footer .social-links {
-  background-color: var(--background-color);
+  background-color: rgb(56, 56, 56);
   text-decoration: none;
   font-size: 25px;
-  color: black;
+  color: rgb(231, 231, 231);
   text-align: center;
   margin: 0 20px;
   padding: 10px 10px;
@@ -221,6 +227,16 @@ footer .social-links {
 }
 footer .social-links:hover {
   background-color: var(--second-color);
+}
+
+footer a {
+  color: #f79fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #b765be;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
