@@ -1,8 +1,8 @@
 :root {
   --branding-color: #bb7cbd;
   --second-color: #a18ba3;
-  --third-color: #b3a814;
-  --fourth-color: #d4eed5;
+  --third-color: #c564c8;
+  --fourth-color: #626262;
   --heading-font-family: "Kalnia", serif;
   --second-font-family: "Sansita", sans-serif;
   --default-font-family: sans-serif;
@@ -119,7 +119,7 @@ p {
 }
 
 .btn-branding-pink:hover {
-  background: var(--second-color);
+  background: var(--third-color);
   color: rgb(231, 231, 231);
 }
 
@@ -227,6 +227,7 @@ footer .social-links {
 }
 footer .social-links:hover {
   background-color: var(--second-color);
+  color: #fff;
 }
 
 footer a {
