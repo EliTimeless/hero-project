@@ -38,7 +38,9 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top m-0 p-0"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
           ><img src="/img/2.png" alt="Eli logo" title="Eli logo" class="logo"
@@ -72,15 +74,21 @@
                 >About</a
               >
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" title="Eliška's work" href="/work.html"
+              <a class="nav-link" title="Eliška's coding work" href="/code.html"
                 >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" title="design projects" href="/design.html">
+                Design</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                title="contacts to Eliška"
+                title="connect with Eliška"
                 href="/contact.html"
                 >Contact</a
               >
@@ -89,23 +97,33 @@
         </div>
       </div>
     </nav>
-    <div class="hero">
-      <p class="fw-bold p-2">👋🏻 Hi I am</p>
-      <h1 class="fw-bold p-2">Eliška Nečasová</h1>
-      <h2 class="mb-5">🇨🇿 Junior Web developer and Tester, based in Czechia</h2>
-      <div class="text-center">
-        <a
-          href="/about.html"
-          class="btn btn-branding-pink m-2"
-          title="About me page"
-          >About me</a
-        >
-        <a
-          href="/contact.html"
-          class="btn btn-branding-pink m-2"
-          title="contact me page"
-          >Contact me</a
-        >
+    <div class="welcome-page mt-4 p-4">
+      <div
+        class="row mt-4 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <p class="fw-bold p-2">Welcome !</p>
+          <h1 class="display-4 fw-bold lh-1">< I'm Eliška ></h1>
+          <p class="lead">
+            <span class="fw-bold">{ Web developer and QA Tester}</span> , based
+            in Czechia 🇨🇿
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <a
+              href="/about.html"
+              class="btn btn-branding-pink m-2"
+              title="About me page"
+              >About me</a
+            ><a
+              href="/contact.html"
+              class="btn btn-branding-pink m-2"
+              title="contact me page"
+              >Contact me</a
+            >
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
